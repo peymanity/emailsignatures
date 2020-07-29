@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function DataItem(props) {
@@ -45,10 +44,10 @@ class DynamicContent extends React.Component {
         <table width="100%" cellSpacing={0} cellPadding={0} border={0}><tbody><tr>
           <td style={{verticalAlign: 'top', padding: '0 10px 0 5px', textAlign: 'center', width: '90px', minWidth:'50px', maxWidth:'90px'}} width="90">
             <a style={{display: 'inline-block'}} href={"https://linkedin.com/in/" + this.state.linkedin}>
-              <img style={{border: 'none', width: '100%'}} width="100%" src="sigs/peyman.png" />
+              <img style={{border: 'none', width: '100%'}} width="100%" src="sigs/peyman.png" alt={this.state.name} />
             </a>
             <a style={{display: 'inline-block'}} href="https://learningwithparents.com">
-              <img style={{border: 'none', marginTop: '15px', width: '75%'}} width="75%" src="sigs/lwp-logo.png" />
+              <img style={{border: 'none', marginTop: '15px', width: '75%'}} width="75%" src="sigs/lwp-logo.png" alt="Learning with Parents logo" />
             </a>
           </td>
           <td style={{borderLeft: 'solid #000000 2px'}} width={12}>
