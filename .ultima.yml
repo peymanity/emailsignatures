@@ -1,4 +1,4 @@
-Site:
+site:
   type: web
   buildLocation: /build
   runtime: node
